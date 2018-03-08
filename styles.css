@@ -1,3 +1,5 @@
+/* main styles */
+
 body {
     font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
     background-color: #fdfdfd;
@@ -6,7 +8,7 @@ body {
 .header_bar {
     background-color: #e65100;
     border-bottom: 1px solid #1f2833;
-    height: 50px;
+    height: 5em;
     width: 100%;
 }
 
@@ -25,17 +27,17 @@ body {
 }
 
 .track {
-    margin-top: -20px;
-    margin-bottom: -27px;
     margin-left: 11px;
     opacity: .19;
 }
 
-
-
 .page-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: #1f2833;
-    height: 100px;
+    height: 130px;
     width: 100%;
 }
 
@@ -43,4 +45,41 @@ body {
     color: #fdfdfd;
     margin-left: 50px;
     font-size: 1.2em;
+}
+
+.row { margin-bottom: 0;}
+
+/* playlist page styles */
+
+.header_playlist {
+    background-color: #e65100;
+    border-bottom: 1px solid #1f2833;
+    height: 5em;
+    width: 100%;
+}
+
+.header_playlist p {
+    color: #fdfdfd;
+    margin-left: 50px;
+}
+
+#albums {
+    height: 100px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#bin {
+    background-color: #eeeeee;
+    border: 1px solid black;
+    height: 200px;
+} 
+
+.playlist_btn {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.row .col {
+    padding: 0;
 }
