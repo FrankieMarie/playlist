@@ -10,7 +10,7 @@ fetch('https://lit-fortress-6467.herokuapp.com/object')
         let image = document.createElement('img')
         image.src = './images/' + element.cover_art
         image.addEventListener('click', function(){
-            let output = `${element.artist}: ${element.title}`
+            let output = `${element.artist}: ${element.title} </br>`
             bin.innerHTML += output
         })
         //imageDiv.appendChild(image).classList.add('albumImg')
