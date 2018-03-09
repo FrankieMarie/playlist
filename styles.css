@@ -79,6 +79,12 @@ body {
     overflow-x: scroll;
 }
 
+.albumDivs{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
 #bin {
     background-color: #eeeeee;
     border: 1px solid black;
