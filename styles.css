@@ -27,8 +27,17 @@ body {
 }
 
 .track {
-    margin-left: 11px;
-    opacity: .19;
+    background-image: url('./resources/fadedtrack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img_container {
+    height: 185px;
+    width: 185px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .page-footer {
@@ -67,12 +76,14 @@ body {
     height: 100px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    overflow-x: scroll;
 }
 
 #bin {
     background-color: #eeeeee;
     border: 1px solid black;
     height: 200px;
+    overflow: scroll;
 } 
 
 .playlist_btn {
